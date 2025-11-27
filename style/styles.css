@@ -7,15 +7,146 @@
   box-sizing: border-box;
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400px;
+  font-weight: 400;
   font-style: normal;
   margin: 0;
   padding: 0;
 }
 
- {
+body {
   background-image: url("../image/background.png");
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100%;
+  background-size: cover;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+ul {
+  display: flex;
+  gap: 3rem;
+  margin: 1.5rem;
+}
+li {
+  list-style: none;
+}
+a {
+  font-weight: 500;
+  text-decoration: none;
+  color: black;
+}
+
+p {
+  color: #556070;
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.btn {
+  background-color: #6c63ff;
+  padding: 1rem;
+  color: white;
+  border-radius: 4px;
+  width: max-content;
+  font-weight: 600;
+}
+.logo {
+  font-weight: 500;
+  font-size: 32px;
+}
+.logo-icon {
+  font-size: 24px;
+  background-color: #6c63ff;
+  color: white;
+  padding: 13px 20px;
+  border-radius: 100%;
+}
+
+.hero {
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  margin: ;
+  max-width: 1200px;
+  width: 100%;
+  text-align: center;
+}
+
+.hero-content {
+  display: flex;
+  max-width: 1200px;
+  gap: 3rem;
+}
+
+h1 {
+  font-size: 72px;
+  font-weight: 600;
+}
+.hero-text {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.hero-image img {
+  border-radius: 47px;
+  max-height: 640px;
+}
+
+.stats {
+  background-color: #edd8ff80;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  border: solid #6c63ff 1px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.stat-box h3 {
+  font-weight: 600;
+  font-size: 32px;
+  color: #424e60;
+}
+.stat-box {
+  font-size: 16px;
+  font-weight: 400;
+  color: #697484;
+}
+
+#about {
+  padding: 4rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+#about div {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+#process {
+  display: flex;
+  justify-content: center;
 }

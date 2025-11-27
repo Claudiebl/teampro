@@ -3,14 +3,19 @@
     rest : black; white;
 */
 
-@import "tailwindcss";
+* {
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+}
 
-*{
-    box-sizing: border-box;
-    font-family: "Work Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400px;
-    font-style: normal;
-    margin: 0;
-    padding: 0;
+ {
+  background-image: url("../image/background.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
 }

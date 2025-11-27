@@ -3,14 +3,327 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style/styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <title>Brooklyn Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
       rel="stylesheet"
     />
-    <title>Welcome in my portfolio</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <div class="container navbar">
+        <div class="logo"><span class="logo-icon">B</span> Brooklyn</div>
+        <nav>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#process">Process</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#services">Services</a></li>
+          </ul>
+        </nav>
+        <a href="#contact" class="btn btn-primary">Contact</a>
+      </div>
+    </header>
+
+    <section id="home" class="hero">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <h1>
+            Hello, I’m <br />
+            Brooklyn Gilbert
+          </h1>
+          <p>
+            I'm a Freelance UI/UX Designer and Developer based in London,
+            England. I strive to build immersive and beautiful web applications
+            through carefully crafted code and user-centric design.
+          </p>
+          <a href="#contact" class="btn btn-primary">Say Hello!</a>
+
+          <div class="stats">
+            <div class="stat-box">
+              <h3>15 Y.</h3>
+              <span>Experience</span>
+            </div>
+            <div class="stat-box">
+              <h3>250+</h3>
+              <span>Project Completed</span>
+            </div>
+            <div class="stat-box">
+              <h3>58</h3>
+              <span>Happy Client</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img
+            src="https://placehold.co/400x500/1a1e29/FFF?text=Ghost+Image"
+            alt="Brooklyn Gilbert"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="about" style="padding: 100px 0; background-color: #f9f9f9">
+      <div class="container">
+        <div class="section-header">
+          <h2>About Me</h2>
+          <p>Learn more about my background and experience.</p>
+        </div>
+        <p
+          style="
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+            color: #777;
+          "
+        >
+          I am a passionate designer with over 15 years of experience in
+          creating digital experiences. My journey started with a love for art
+          and code, combining them to create functional and beautiful
+          interfaces.
+        </p>
+      </div>
+    </section>
+
+    <section id="process" style="padding: 100px 0">
+      <div class="container">
+        <div class="section-header">
+          <h2>My Work Process</h2>
+          <p>How I bring ideas to life.</p>
+        </div>
+        <div
+          style="
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 30px;
+            text-align: center;
+          "
+        >
+          <div>
+            <i
+              class="fas fa-search"
+              style="font-size: 2rem; color: #a020f0; margin-bottom: 15px"
+            ></i>
+            <h4>Research</h4>
+          </div>
+          <div>
+            <i
+              class="fas fa-pencil-ruler"
+              style="font-size: 2rem; color: #a020f0; margin-bottom: 15px"
+            ></i>
+            <h4>Design</h4>
+          </div>
+          <div>
+            <i
+              class="fas fa-code"
+              style="font-size: 2rem; color: #a020f0; margin-bottom: 15px"
+            ></i>
+            <h4>Develop</h4>
+          </div>
+          <div>
+            <i
+              class="fas fa-rocket"
+              style="font-size: 2rem; color: #a020f0; margin-bottom: 15px"
+            ></i>
+            <h4>Launch</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+        <div class="section-header">
+          <h2>Portfolio</h2>
+          <p>
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration.
+          </p>
+        </div>
+
+        <div class="portfolio-grid">
+          <div class="card">
+            <div class="card-img" style="background-color: #ffcccc"></div>
+            <div class="card-body">
+              <span class="tag">UI-UX DESIGN</span>
+              <h4>Product Admin Dashboard</h4>
+              <p>
+                Vivamus eleifend convallis ante, non pharetra libero molestie
+                laoreet. Donec id imperdiet lacus.
+              </p>
+              <a href="#" class="btn-outline"
+                >Case Study <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img" style="background-color: #1a1e29"></div>
+            <div class="card-body">
+              <span class="tag">UI-UX DESIGN</span>
+              <h4>Product Admin Dashboard</h4>
+              <p>
+                Vivamus eleifend convallis ante, non pharetra libero molestie
+                laoreet.
+              </p>
+              <a href="#" class="btn-outline"
+                >Case Study <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img" style="background-color: #f0f0f0"></div>
+            <div class="card-body">
+              <span class="tag">UI-UX DESIGN</span>
+              <h4>Product Admin Dashboard</h4>
+              <p>
+                Vivamus eleifend convallis ante, non pharetra libero molestie
+                laoreet.
+              </p>
+              <a href="#" class="btn-outline"
+                >Case Study <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 40px">
+          <a href="#" class="btn btn-primary">More Project</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="blog" style="padding: 100px 0; background-color: #f9f9f9">
+      <div class="container">
+        <div class="section-header">
+          <h2>Latest Blogs</h2>
+          <p>Thoughts on design and technology.</p>
+        </div>
+        <p style="text-align: center; color: #777">Blog posts coming soon...</p>
+      </div>
+    </section>
+
+    <section id="services" style="padding: 100px 0">
+      <div class="container">
+        <div class="section-header">
+          <h2>My Services</h2>
+          <p>What I can do for you.</p>
+        </div>
+        <div style="text-align: center; color: #777">
+          <p>Web Design • UI/UX Design • Frontend Development • Branding</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-banner">
+      <div class="container">
+        <h2>Do you have Project Idea?<br />Let's discuss your project!</h2>
+        <p>
+          There are many variations of passages of Lorem Ipsum available,<br />but
+          the majority have suffered alteration.
+        </p>
+        <a href="#contact" class="btn btn-primary"
+          >Let's work Together <i class="fas fa-arrow-right"></i
+        ></a>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <div class="container contact-wrapper">
+        <div class="contact-info">
+          <h3>Let's discuss your Project</h3>
+          <p>
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration.
+          </p>
+
+          <div class="info-item">
+            <div class="icon-box"><i class="fas fa-map-marker-alt"></i></div>
+            <div>
+              <strong>Address:</strong>
+              <p>New Mexico 31134</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <div class="icon-box"><i class="fas fa-envelope"></i></div>
+            <div>
+              <strong>My Email:</strong>
+              <p>mymail@mail.com</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <div class="icon-box"><i class="fas fa-phone-alt"></i></div>
+            <div>
+              <strong>Call Me Now:</strong>
+              <p>00-1234 5678</p>
+            </div>
+          </div>
+
+          <div class="social-links">
+            <a href="#" class="active"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-dribbble"></i></a>
+            <a href="#"><i class="fab fa-behance"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <p>
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alte.
+          </p>
+          <form>
+            <div class="form-group">
+              <input type="text" placeholder="Name*" />
+            </div>
+            <div class="form-group">
+              <input type="email" placeholder="Email*" />
+            </div>
+            <div class="form-group">
+              <input type="text" placeholder="Location" />
+            </div>
+            <div class="form-row">
+              <input type="text" placeholder="Budget*" />
+              <input type="text" placeholder="Subject*" />
+            </div>
+            <div class="form-group">
+              <textarea placeholder="Message*"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">
+              Submit <i class="fas fa-paper-plane"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container footer-content">
+        <div class="logo white"><span class="logo-icon">B</span> Brooklyn</div>
+        <div class="footer-links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#process">Process</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#blog">Blog</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="copyright">Copyright © 2023 Picto.</div>
+      </div>
+    </footer>
+
+    <i class="fa-brands fa-github" style="color: #a53dff"></i>
+    <i class="fa-brands fa-facebook" style="color: #a53dff"></i>
+    <i class="fa-brands fa-linkedin" style="color: #a53dff"></i>
+    <i class="fa-brands fa-instagram" style="color: #a53dff"></i>
+  </body>
 </html>

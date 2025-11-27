@@ -1,0 +1,16 @@
+/* color scheme
+    icon,hover, card text : #A53DFF;
+    rest : black; white;
+*/
+
+@import "tailwindcss";
+
+*{
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
